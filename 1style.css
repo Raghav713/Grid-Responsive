@@ -1,0 +1,24 @@
+.{
+    padding:0;
+    margin: 0;
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.item{
+    background-color:bisque;
+    border: 1px solid black;
+    height: auto;
+}
+.pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-size{
+    max-width: 100%;
+}
